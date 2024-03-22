@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xLUVblvUghbilXKSVjAPh+A1bYuCP85eY/I3mzzR62E=",
+  "Source": "Chess.Core.Api",
+  "BasePath": "_content/Chess.Core.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

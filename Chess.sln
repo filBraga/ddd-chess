@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{74B7EFF4-99E1-4BE6-AEDD-DEF3BF28D4BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{085CD937-2CE3-4E60-BF07-2B4BDC9D3429}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{221E1E87-5238-49B8-88E6-C194772D7749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5E0C0D5F-6DEE-453D-8E29-D7F8BAFA346C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{04B7912B-0DFF-4B48-8BF2-332153C7EE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Core.Api", "Chess.Core.Api\Chess.Core.Api.csproj", "{8238BFC6-FD25-4263-8A1C-90075F58AB6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8238BFC6-FD25-4263-8A1C-90075F58AB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8238BFC6-FD25-4263-8A1C-90075F58AB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8238BFC6-FD25-4263-8A1C-90075F58AB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8238BFC6-FD25-4263-8A1C-90075F58AB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{221E1E87-5238-49B8-88E6-C194772D7749} = {085CD937-2CE3-4E60-BF07-2B4BDC9D3429}
+		{5E0C0D5F-6DEE-453D-8E29-D7F8BAFA346C} = {085CD937-2CE3-4E60-BF07-2B4BDC9D3429}
+		{04B7912B-0DFF-4B48-8BF2-332153C7EE6A} = {085CD937-2CE3-4E60-BF07-2B4BDC9D3429}
+		{8238BFC6-FD25-4263-8A1C-90075F58AB6F} = {04B7912B-0DFF-4B48-8BF2-332153C7EE6A}
+	EndGlobalSection
+EndGlobal
